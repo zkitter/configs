@@ -1,6 +1,6 @@
 {
   "name": "@r1oga/config-prettier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared prettier configuration",
   "main": ".prettierrc.yaml",
   "files": [
@@ -15,7 +15,7 @@
   ],
   "author": "r1oga",
   "license": "MIT",
-    "publishConfig": {
+  "publishConfig": {
     "access": "public"
   },
   "scripts": {
