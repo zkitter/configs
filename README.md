@@ -3,4 +3,4 @@
 - [prettier](./packages/prettier)
 
 ## Publish
-`pnpx lerna publish`
+`pnpm run publish`
