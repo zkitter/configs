@@ -1,0 +1,20 @@
+{
+  "name": "@r1oga/prettier",
+  "version": "1.0.0",
+  "description": "Share Prettier configuration",
+  "main": ".prettierrc.yaml",
+  "files": [
+    ".prettierrc.yaml",
+    ".prettierignore"
+  ],
+  "keywords": [
+    "prettier",
+    "configuration",
+    "standard"
+  ],
+  "author": "r1oga",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.8.1"
+  }
+}
