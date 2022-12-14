@@ -5,7 +5,8 @@
   "main": ".eslintrc.yaml",
   "files": [
     ".eslintrc.yaml",
-    ".eslintignore"
+    ".eslintignore",
+    "postinstall.sh"
   ],
   "keywords": [
     "eslint",
@@ -20,7 +21,7 @@
     "access": "public"
   },
   "scripts": {
-    "postinstall": "sh install.sh"
+    "postinstall": "sh postinstall.sh"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.46.1",

@@ -5,7 +5,8 @@
   "main": ".prettierrc.yaml",
   "files": [
     ".prettierrc.yaml",
-    ".prettierignore"
+    ".prettierignore",
+    "postinstall.sh"
   ],
   "keywords": [
     "prettier",
@@ -14,6 +15,12 @@
   ],
   "author": "r1oga",
   "license": "MIT",
+    "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "postinstall": "sh postinstall.sh"
+  },
   "devDependencies": {
     "prettier": "^2.8.1"
   }
