@@ -34,9 +34,12 @@ importers:
 
   packages/prettier:
     specifiers:
+      js-yaml: ^4.1.0
       prettier: ^2.8.1
     dependencies:
       prettier: 2.8.1
+    devDependencies:
+      js-yaml: 4.1.0
 
 packages:
 
