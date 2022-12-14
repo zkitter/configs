@@ -1,6 +1,6 @@
 {
   "name": "@r1oga/config-prettier",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Shared prettier configuration",
   "main": ".prettierrc.yaml",
   "files": [
@@ -24,5 +24,5 @@
   "devDependencies": {
     "prettier": "^2.8.1"
   },
-  "gitHead": "3cec496b833ed4b56ef3b6dc5dd3c19585d44c81"
+  "gitHead": "af64bc0dabc5e3fb6bbc6654b2d98288ff8e7ff9"
 }
