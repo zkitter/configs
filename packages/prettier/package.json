@@ -21,7 +21,7 @@
   "scripts": {
     "postinstall": "sh postinstall.sh"
   },
-  "devDependencies": {
+  "peerDependencies": {
     "prettier": "^2.8.1"
   },
   "gitHead": "af64bc0dabc5e3fb6bbc6654b2d98288ff8e7ff9"
