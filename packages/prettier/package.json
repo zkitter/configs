@@ -1,7 +1,7 @@
 {
-  "name": "@r1oga/prettier",
+  "name": "@r1oga/config-prettier",
   "version": "1.0.0",
-  "description": "Share Prettier configuration",
+  "description": "Shared prettier configuration",
   "main": ".prettierrc.yaml",
   "files": [
     ".prettierrc.yaml",

@@ -1,11 +1,12 @@
 {
-  "name": "@r1oga/eslint",
+  "name": "@r1oga/config-eslint",
   "version": "1.0.0",
-  "description": "Share ES Lint configuration",
+  "description": "Shared eslint configuration",
   "main": ".eslintrc.yaml",
-  "scripts": {
-    "publish": ""
-  },
+  "files": [
+    ".eslintrc.yaml",
+    ".eslintignore"
+  ],
   "keywords": [
     "eslint",
     "config",
@@ -17,6 +18,9 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "postinstall": "sh install.sh"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.46.1",

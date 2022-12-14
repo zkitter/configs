@@ -1,11 +1,8 @@
 {
-  "name": "dotfiles",
+  "name": "@r1oga/config",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "r1oga",
+  "license": "MIT",
   "devDependencies": {
     "lerna": "^6.1.0"
   }
