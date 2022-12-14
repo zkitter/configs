@@ -1,6 +1,6 @@
 {
   "name": "@r1oga/config-eslint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shared eslint configuration",
   "main": ".eslintrc.yaml",
   "files": [
@@ -34,5 +34,6 @@
     "eslint-plugin-n": "^15.6.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-sort": "^2.4.0"
-  }
+  },
+  "gitHead": "3cec496b833ed4b56ef3b6dc5dd3c19585d44c81"
 }
