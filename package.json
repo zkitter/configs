@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "clean": "rm -rf node_modules && lerna clean",
-    "publish": "lerna publish --no-private"
+    "publish": "lerna publish -y --no-private --pre-id ci --npm-tag=ci --force-publish=* --registry '@r1oga:registry=https://npm.pkg.github.com' --message ':package: Publish'"
   },
   "devDependencies": {
     "lerna": "^6.1.0"
