@@ -27,4 +27,5 @@ rules:
   no-empty:
     - error
     - allowEmptyCatch: true
+  no-unsafe-optional-chaining: warn
   no-useless-constructor: warn
