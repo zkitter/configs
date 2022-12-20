@@ -5,8 +5,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "clean": "rm -rf node_modules && lerna clean",
-    "publish": "lerna publish -y --no-private --preid ci --npm-tag=ci --force-publish=* --registry '@r1oga:registry=https://npm.pkg.github.com' --message ':package: Publish'"
+    "clean": "rm -rf node_modules && lerna clean"
   },
   "devDependencies": {
     "lerna": "^6.1.0"
