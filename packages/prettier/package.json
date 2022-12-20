@@ -20,7 +20,7 @@
   },
   "scripts": {
     "build": "js-yaml .prettierrc.yaml > .prettierrc.json",
-    "postinstall": "sh postinstall.sh"
+    "postinstall": "bash postinstall.sh"
   },
   "peerDependencies": {
     "prettier": "^2.8.1"

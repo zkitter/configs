@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [closed]
     branches: [main]
-    paths: ['packages/*']
+    paths: ['packages/**']
 jobs:
   publish:
     if: github.event.pull_request.merged == true
@@ -59,7 +59,7 @@ jobs:
           restore-keys: ${{ runner.os }}-pnpm-store-
 
       - name: Install
-        run: pnpm ci
+        run: pnpm i
 
       - name: Publish
         run: pnpm run publish

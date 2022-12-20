@@ -21,7 +21,7 @@
     "access": "public"
   },
   "scripts": {
-    "postinstall": "sh postinstall.sh"
+    "postinstall": "bash postinstall.sh"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.46.1",
