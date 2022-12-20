@@ -22,7 +22,8 @@
   "repository": "https://github.com/zkitter/configs",
   "scripts": {
     "build": "js-yaml .prettierrc.yaml > .prettierrc.json",
-    "postinstall": "bash postinstall.sh"
+    "postinstall": "bash postinstall.sh",
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "prettier": "^2.8.1"
