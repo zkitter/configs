@@ -1,9 +1,12 @@
 {
+  "arrowParens": "avoid",
   "jsxSingleQuote": true,
   "parser": "typescript",
-  "semi": false,
+  "printWidth": 100,
+  "semi": true,
   "singleQuote": true,
-  "trailingComma": "all",
+  "tabWidth": 2,
+  "trailingComma": "es5",
   "overrides": [
     {
       "files": "*.ts",

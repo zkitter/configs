@@ -1,6 +1,6 @@
 {
-  "name": "@r1oga/prettier-config",
-  "version": "1.1.8",
+  "name": "@zkitter/prettier-config",
+  "version": "1.0.0",
   "description": "Shared prettier configuration",
   "main": ".prettierrc.json",
   "files": [
@@ -16,16 +16,18 @@
   "author": "r1oga",
   "license": "MIT",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   },
+  "repository": "https://github.com/zkitter/configs",
   "scripts": {
     "build": "js-yaml .prettierrc.yaml > .prettierrc.json",
-    "postinstall": "bash postinstall.sh"
+    "postinstall": "bash postinstall.sh",
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "prettier": "^2.8.1"
   },
-  "gitHead": "af64bc0dabc5e3fb6bbc6654b2d98288ff8e7ff9",
   "devDependencies": {
     "js-yaml": "^4.1.0"
   }
