@@ -4,7 +4,7 @@
 
 ## Install
 ```shell
-pnpm add -D @r1oga/eslint-config  @r1oga/prettier-config
+pnpm add -D @zkitter/eslint-config  @zkitter/prettier-config
 ```
 ## Publish
 `pnpm run publish`
